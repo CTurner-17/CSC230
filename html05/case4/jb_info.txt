@@ -1,0 +1,105 @@
+New Perspectives on HTML5 and CSS3, 7th Edition
+Tutorial 5
+Case Problem 4
+
+========================
+Jersey Buoys
+Owner: Tony Gallo
+
+MAILING ADDRESS
+141 Hodad Drive
+Ocean City, NJ 08226
+
+(609) 555-7873
+
+gall@example.com/surf
+=======================
+
+=======================
+Navigation Links #1
+* home
+* classes
+* camps
+* store
+* blog
+* staff
+=======================
+
+=======================
+Navigation Links #2
+
+Classes
+-------
+Intro Surfing
+Surfing I
+Surfing II
+Surfing III
+Master Surfing
+
+Camps
+-----
+1-Day Grommets
+3-Day Grommets
+5-Day Grommets
+Gurfer Weekend
+Men's Retreat
+Adult Excursions
+
+Store
+-----
+Gear
+Quiver
+Clothing
+Shopping Cart
+My Account
+Tracking
+=======================
+
+=======================
+Come enjoy the excitement of riding the waves along the Jersey Shore with Jersey Buoys. 
+Our nationally-accredited school brings its 22 years of experience in helping you become 
+the surfer you've dreamed of becoming.
+
+Our classes are tailored to your needs. We provide instruction in basic surfing techniques 
+and advanced techniques from cutbacks to boosts to hobble-bobbles. Choose a private or 
+group lesson. Grommets can participate in 1, 3, or 5 half-day courses. We also sponsor 
+surfing camps with catered meals and lodging.
+
+Whether a Barney or a Gandolf, you are always safe in our waters. Our experienced 
+instructors are accredited by the National Instructors and Surf Schools Association. 
+They are fully Red Cross and First Aid certified. In addition to being great teachers, 
+every instructor has gone through extensive lifeguard training.
+
+The next big wave is approaching: Catch it with Jersey Buoys. Call to set up an 
+appointment, grab a board from the quiver and head to the Green Room.
+=======================
+
+=======================
+Surfer Slang
+-------------
+barney
+A new and inexperience surfer
+
+boost
+To take off from a wave into an aerial
+
+cutback
+To change direction when streaking ahead of the curl
+
+gandolf
+An experienced wise older surfer
+
+green room
+The inside of a tube
+
+grommet
+A very young surfer, a child
+
+gurfer
+A girl surfer
+
+hobble-bobble
+An aerial launch while flapping your arms like a bird
+
+quiver
+A collection of surfboards
