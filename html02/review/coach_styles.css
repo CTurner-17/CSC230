@@ -104,11 +104,16 @@ nav > ul > li > a:link, nav > ul > li >a:active {
 }
 
 /* Paragraph Styles */
-
+p {
+   padding: 10px 30px 10px 0px;
+}
 
 
 /* List Styles */
-
+article.coach_bio > header > ul {
+   list-style-image: url(check.png);
+   margin: 0px 0px 10px 0px;
+}
 
 
 
