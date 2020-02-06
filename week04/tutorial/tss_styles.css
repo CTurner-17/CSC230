@@ -86,8 +86,14 @@ nav > ul > li.newgroup {
 
 /* List Styles */
 
-article#about_tss ul {
+article#about_tss ul li:first-of-type{
    list-style-image: url(runicon.png);
+}
+article#about_tss ul li:nth-of-type(2){
+   list-style-image: url(bikeicon.png);
+}
+article#about_tss ul li:last-of-type{
+   list-style-image: url(swimicon.png);
 }
 article.syllabus ol {
    list-style-type: upper-roman;
