@@ -94,14 +94,26 @@ nav > ul > li:nth-of-type(6) {
 nav > ul > li:nth-of-type(16) {
    margin-top: 20px;
 }
-
+nav > ul > li > a:link, nav > ul > li >a:visited {
+   color: rgb(151,151,151);
+   text-decoration: none;
+}
+nav > ul > li > a:link, nav > ul > li >a:active {
+   color: rgb(222,128,60);
+   text-decoration: underline;
+}
 
 /* Paragraph Styles */
-
+p {
+   padding: 10px 30px 10px 0px;
+}
 
 
 /* List Styles */
-
+article.coach_bio > header > ul {
+   list-style-image: url(check.png);
+   margin: 0px 0px 10px 0px;
+}
 
 
 
