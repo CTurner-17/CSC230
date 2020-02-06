@@ -49,16 +49,51 @@ section#tss_coaches h1 {
    background-color: hsl(27, 6%, 21%);
    padding-left: 10px;
 }
+article.coach_bio h2 {
+   font-size: 1.6em;
+   font-weight: normal;
+   color: rgb(240, 125, 0);
+}
 
 
 /* Blockquote Styles */
-
-
+aside blockquote {
+   font-size: 0.95em;
+   font-family: 'Comic Sans MS', cursive;
+   color: rgb(222, 128, 60);
+   background-color: rgba(255, 2555, 255, 0.75);
+   padding: 10px;
+   quotes: "\201C" "\201D"
+}
+aside blockquote::before {
+   content: open-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+aside blockquote::after {
+   content: close-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
 
 
 /* Navigation Styles */	
-
-
+body > nav {
+   line-height: 2em;
+   font-size: 0.8em;
+}
+nav > ul {
+   list-style-type: none;
+   padding: 5px;
+}
+nav > ul > li:nth-of-type(6) {
+   margin-top: 20px;
+}
+nav > ul > li:nth-of-type(16) {
+   margin-top: 20px;
+}
 
 
 /* Paragraph Styles */
