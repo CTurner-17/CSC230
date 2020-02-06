@@ -1,11 +1,17 @@
+@charset "utf-8";
+@font-face {
+   font-family:Nobile;
+   src: url('nobile-webfont.woff') format('woff')
+   url('nobile-webfont.ttf') format('truetype');
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Review Assignment
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Charles Turner
+   Date:   2/6/2020
    
    Filename: coach_styles.css
 
@@ -13,12 +19,36 @@
 
 
 /* Main Structural Styles */
-
-
+html { 
+   background-color: hsl(27, 72%, 72%);
+}
+body {
+   color: rgb(91, 91, 91);
+   background-color: ivory;
+   font-family: Verdana, Geneva, sans-serif;
+}
+body > footer address {
+   background-color: rgb(222, 128, 60);
+   color: white;
+   color: rgba(255, 255, 255, 0.6);
+   font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
+   text-align: horizontal center;
+}
 
 
 /* Heading Styles */
-
+h1 {
+   font-weight: normal;
+   font-family: Nobile, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.2em;
+   margin: 0px;
+}
+section#tss_coaches h1 {
+   font-size: 2.53m;
+   color: hsl(27, 82%, 85%);
+   background-color: hsl(27, 6%, 21%);
+   padding-left: 10px;
+}
 
 
 /* Blockquote Styles */
