@@ -80,7 +80,14 @@ aside blockquote::after {
 
 
 /* Navigation Styles */	
-
+body > nav {
+   line-height: 2em;
+   font-size: 0.8em;
+}
+nav > ul {
+   list-style-type: none;
+   padding: 5px;
+}
 
 
 
