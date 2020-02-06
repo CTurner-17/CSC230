@@ -60,6 +60,7 @@ h2 {
 /* Aside and Blockquote Styles */
 aside blockquote {
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
 }
 
 aside {
@@ -74,15 +75,35 @@ nav {
 }
 nav > ul {
    line-height: 2em;
+   list-style-type: none;
+   padding-left: 5px;
+}
+nav > ul > li.newgroup {
+   margin-top: 20px;
 }
 
 
 
 /* List Styles */
 
-
-
-
+article#about_tss ul li:first-of-type{
+   list-style-image: url(runicon.png);
+}
+article#about_tss ul li:nth-of-type(2){
+   list-style-image: url(bikeicon.png);
+}
+article#about_tss ul li:last-of-type{
+   list-style-image: url(swimicon.png);
+}
+article.syllabus ol {
+   list-style-type: upper-roman;
+}
+article.syllabus ol ol{
+   list-style-type: upper-alpha;
+}
+article.syllabus ol ol ol{
+   list-style-type: decimal;
+}
 
 /* Footer Styles */
 
