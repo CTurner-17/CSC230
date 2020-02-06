@@ -33,11 +33,16 @@ body > footer address {
    color: rgba(255, 255, 255, 0.6);
    font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
    text-align: horizontal center;
-
+}
 
 
 /* Heading Styles */
-
+h1 {
+   font-weight: normal;
+   font-family: Nobile, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.2em;
+   margin: 0px;
+}
 
 
 /* Blockquote Styles */
