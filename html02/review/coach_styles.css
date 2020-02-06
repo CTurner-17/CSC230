@@ -43,6 +43,12 @@ h1 {
    letter-spacing: 0.2em;
    margin: 0px;
 }
+section#tss_coaches h1 {
+   font-size: 2.53m;
+   color: hsl(27, 82%, 85%);
+   background-color: hsl(27, 6%, 21%);
+   padding-left: 10px;
+}
 
 
 /* Blockquote Styles */
