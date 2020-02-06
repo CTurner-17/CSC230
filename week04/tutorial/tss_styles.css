@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+   font-family: Quicksand;
+   src: url('Quicksand-Regular.woff') format('woff')
+   url('Quicksand-Regular.ttf') format('truetype');
+}
 
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -28,6 +33,10 @@ body {
 
 
 /* Heading Styles */
+h1, h2 {
+   font-family: Quicksand, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.1em;
+}
 article#about_tss h1 {
    color: white;
    background-color: rgb(222, 128, 60);
@@ -41,18 +50,31 @@ article.syllabus h1, article.syllabus h2 {
    background-color: rgb(255, 185, 255);
    color: rgb(101, 101, 101);
 }
+h1 {
+   font-size: 2.2em;
+}
+h2 {
+   font-size: 1.5em;
+}
 
 /* Aside and Blockquote Styles */
 aside blockquote {
    color: rgb(232, 165, 116);
 }
 
-
+aside {
+   font-size: 0.8em;
+}
 
 
 /* Navigation Styles */	
 
-
+nav {
+   font-size: 0.8em;
+}
+nav > ul {
+   line-height: 2em;
+}
 
 
 
