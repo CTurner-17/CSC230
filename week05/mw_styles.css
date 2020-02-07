@@ -73,8 +73,26 @@ nav > ul > li > a:hover, nav > ul > li >a:active {
 
 
 /* Aside Styles */
-
-
-
+#tour_itinerary h1 {
+   font-size: 1.2em;
+}
+#tour_itinerary h2 {
+   font-size: 0.9em;
+}
+#tour_itinerary p {
+   font-size: 0.8em;
+}
+#tour_itinerary h1:nth-of-type(odd) {
+   color: rgb(79,91,40);
+}
+#tour_itinerary p:nth-of-type(odd) {
+   color: rgb(79,91,40);
+}
+#tour_itinerary h2:nth-of-type(even) {
+   color: rgb(81, 95, 175);
+}
+#tour_itinerary p:nth-of-type(even) {
+   color: rgb(81, 95, 175);
+}
 /* Blockquote Styles */
 
