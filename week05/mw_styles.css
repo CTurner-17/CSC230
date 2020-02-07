@@ -76,7 +76,9 @@ nav > ul > li > a:hover, nav > ul > li >a:active {
 #tour_itinerary h1 {
    font-size: 1.2em;
 }
-
+#tour_itinerary h2 {
+   font-size: 0.9em;
+}
 
 
 /* Blockquote Styles */
