@@ -16,7 +16,9 @@
 
 
 /* Structural Styles */
-
+html {
+   background-color: rgb(173, 189,227);
+}
 
 
 /* Heading Styles */
