@@ -19,7 +19,20 @@
 html {
    background-color: rgb(173, 189,227);
 }
-
+body {
+   background-color: rgb(227, 210, 173);
+   font-family: 'Century Gothic', sans-serif;
+}
+body > footer {
+   background-color: rgb(208, 184, 109);
+   padding: 5px 0px;
+}
+address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding:10px 0px;
+}
 
 /* Heading Styles */
 
