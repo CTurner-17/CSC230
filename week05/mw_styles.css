@@ -62,6 +62,10 @@ nav > ul > li > a:hover, nav > ul > li >a:active {
    letter-spacing: 0.2em;
 }
 
+#tour_summary p {
+   font-size: 1.1em;
+}
+
 
 
 /* Aside Styles */
