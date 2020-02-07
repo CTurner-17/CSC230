@@ -41,7 +41,11 @@ h1, h2 {
 
 
 /* Navigation Styles */
-
+nav > ul {
+   list-style-type: none;
+   line-height: 2em;
+   font-size: 0.9em;
+}
 
 
 
