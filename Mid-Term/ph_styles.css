@@ -72,9 +72,24 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 
 
 /* Section Styles */
-
-
-
+section.playbill h1 {
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0px;
+   padding: 20px 0px 10px 20px;
+}
+#play1 {
+   background-color: hsl(240, 100%, 88%);
+}
+#play2 {
+   background-color: hsl(25, 88%, 73%);
+}
+#play3 {
+   background-color: hsl(0, 100%, 75%);
+}
+#play4 {
+   background-color: hsl(296, 86%, 86%);
+}
 
 /* Description List Styles */
 
