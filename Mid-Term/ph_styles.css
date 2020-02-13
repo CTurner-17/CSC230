@@ -72,9 +72,44 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
 
 
 /* Section Styles */
+section.playbill h1 {
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0px;
+   padding: 20px 0px 10px 20px;
+}
 
 
+#play1 {
+   background-color: hsl(240, 100%, 88%);
+}
+#play1 h1 {
+   font-family: Champagne, cursive;
+}
 
+
+#play2 {
+   background-color: hsl(25, 88%, 73%);
+}
+#play2 h1 {
+   font-family: Grunge, 'Times New Roman', Times, serif;
+}
+
+
+#play3 {
+   background-color: hsl(0, 100%, 75%);
+}
+#play3 h1 {
+   font-family: impact, Charcoal, sans-serif;
+}
+
+
+#play4 {
+   background-color: hsl(296, 86%, 86%);
+}
+#play4 h1 {
+   font-family: Dobkin, cursive;
+}
 
 /* Description List Styles */
 
