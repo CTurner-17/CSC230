@@ -47,11 +47,18 @@ nav.horizontalNavigation a {
 
 /* Left Column Styles */
 
-
+section#leftcolumn {
+   clear: left;
+   float: left;
+   width: 30%;
+}
 
 
 /* Right Column Styles */
-
+section#rightcolumn {
+   float: left;
+   width: 67%;
+}
 
 
 
