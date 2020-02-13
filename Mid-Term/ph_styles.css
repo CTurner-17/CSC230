@@ -29,9 +29,31 @@
 
 
 /* Structural Styles */
- 
+html {
+   background-color: hsl(91, 8%, 56%);
+} 
+body {
+   background-color: hsl(58, 31%, 84%);
+   font-family: 'Palatino Linotype','Book Antiqua', Palatino, serif;
+}
+header {
+   background-color: black;
+}
+p {
+   margin: 0px;
+   padding: 5px 25px 25px 25px;
 
-
+}
+body > p {
+   font-size: 1.1em;
+   text-align: center;
+}
+footer {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding: 10px;
+}
 
 /* Navigation Styles */
 
