@@ -67,8 +67,7 @@ nav > ul > li > a:link, nav > ul > li > a:visited {
 }
 nav > ul > li > a:hover, nav > ul > li > a:active {
    color: hsla(0, 0%, 100%, 0.7);
-   background-color: hsla(0, 0%, 42%, 0.7)
-   text-decoration: ;
+   background-color: hsla(0, 0%, 42%, 0.7);
 }
 
 
