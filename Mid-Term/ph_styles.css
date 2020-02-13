@@ -112,4 +112,8 @@ section.playbill h1 {
 }
 
 /* Description List Styles */
-
+dt {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0, 0%, 0%, 0.4);
+}
