@@ -56,8 +56,19 @@ footer {
 }
 
 /* Navigation Styles */
-
-
+nav > ul > li {
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   padding: 10px 0px;
+}
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   color: white;
+   background-color: hsla(0, 0%, 42%, 0.4);
+   text-decoration: none;
+}
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: hsla(0, 0%, 100%, 0.7);
+   background-color: hsla(0, 0%, 42%, 0.7);
+}
 
 
 /* Section Styles */
