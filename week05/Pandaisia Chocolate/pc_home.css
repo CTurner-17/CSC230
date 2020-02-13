@@ -15,6 +15,8 @@
 
 /* Body Styles */
 body {
+   margin-left: auto;
+   margin-right: auto;
    max-width: 960px;
    min-width: 640px;
    width: 95%;
