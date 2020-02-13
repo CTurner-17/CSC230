@@ -48,15 +48,14 @@ body > p {
    font-size: 1.1em;
    text-align: center;
 }
-footer {
+address {
    font-style: normal;
    font-size: 0.9em;
    text-align: center;
    padding: 10px;
 }
-
 /* Navigation Styles */
-nav > ul > li {
+nav > a {
    font-family: 'Trebuchet MS', Helvetica, sans-serif;
    padding: 10px 0px;
 }
@@ -112,4 +111,13 @@ section.playbill h1 {
 }
 
 /* Description List Styles */
-
+dt {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: hsla(0, 0%, 0%, 0.4);
+}
+dt > dd {
+   font-size: 1.3em;
+   margin-left: 0px;
+   margin-bottom: 10px;
+}
