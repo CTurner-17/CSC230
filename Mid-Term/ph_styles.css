@@ -54,7 +54,12 @@ footer {
    text-align: center;
    padding: 10px;
 }
-
+address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding: 10px;
+}
 /* Navigation Styles */
 nav > ul > li {
    font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -116,4 +121,9 @@ dt {
    font-size: 1.3em;
    font-weight: bold;
    color: hsla(0, 0%, 0%, 0.4);
+}
+dt > dd {
+   font-size: 1.3em;
+   margin-left: 0px;
+   margin-bottom: 10px;
 }
