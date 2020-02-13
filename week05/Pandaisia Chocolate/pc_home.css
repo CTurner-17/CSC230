@@ -35,9 +35,13 @@ body > header > nav.horizontalNavigation li {
 
 
 /* Horizontal Navigation Styles */
-nav.HorizontalNavigation li {
+nav.horizontalNavigation li {
    display: block;
    float: left;
+}
+nav.horizontalNavigation a {
+   display: block;
+   text-align: center;
 }
 
 
