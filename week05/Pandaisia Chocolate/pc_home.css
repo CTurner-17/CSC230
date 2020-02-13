@@ -28,11 +28,17 @@ body > header > img {
    display: block;
    width: 100%;
 }
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
 
 
 
 /* Horizontal Navigation Styles */
-
+nav.HorizontalNavigation li {
+   display: block;
+   float: left;
+}
 
 
 /* Left Column Styles */
