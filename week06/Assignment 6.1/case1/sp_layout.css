@@ -40,12 +40,20 @@ div.row::after {
    display: table;
 }
 
-
-
-
 /* Page Header Styles */
-
-
+body > header > img {
+   display: block;
+   width: 70%;
+   float: left;
+}
+nav.horizontalNavigation li {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+body > header> li {
+   width: 30%;
+}
 
 
 
