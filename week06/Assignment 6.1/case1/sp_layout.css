@@ -46,7 +46,7 @@ body > header > img {
    width: 70%;
    float: left;
 }
-nav.horizontalNavigation li {
+nav.verticalNavigation li {
    float: left;
    padding-left: 2%;
    padding-right: 2%;
