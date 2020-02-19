@@ -26,6 +26,9 @@ body {
    min-height: 100%;
 }
 
+header, ul, nav, li, a {
+   box-sizing: border-box;
+}
 
 /* Row Styles */
 
