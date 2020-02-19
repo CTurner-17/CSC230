@@ -26,9 +26,19 @@ body {
    min-height: 100%;
 }
 
+header, ul, nav, li, a {
+   box-sizing: border-box;
+}
 
 /* Row Styles */
-
+div.row {
+   clear: both;
+}
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 
