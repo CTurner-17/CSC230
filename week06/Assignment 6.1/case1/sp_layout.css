@@ -17,7 +17,14 @@
 html {
    height: 100%;
 }
-
+body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 100%;
+}
 
 
 /* Row Styles */
