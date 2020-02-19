@@ -46,6 +46,14 @@ body > header > img {
    width: 70%;
    float: left;
 }
+nav.horizontalNavigation li {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+body > header> li {
+   width: 30%;
+}
 
 
 
