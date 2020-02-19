@@ -55,7 +55,10 @@ body > header> li {
    width: 30%;
 }
 
-
+header > nav>  li {
+   display: block;
+   width: 100%;
+}
 
 
 /* Horizontal Navigation List Styles */
