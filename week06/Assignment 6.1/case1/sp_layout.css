@@ -31,7 +31,14 @@ header, ul, nav, li, a {
 }
 
 /* Row Styles */
-
+div.row {
+   clear: both;
+}
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 
