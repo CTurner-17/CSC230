@@ -46,7 +46,7 @@ body > header > img {
    width: 70%;
    float: left;
 }
-nav.verticalNavigation li {
+body > header >  li {
    float: left;
    padding-left: 2%;
    padding-right: 2%;
@@ -63,7 +63,10 @@ header > nav>  li {
 
 /* Horizontal Navigation List Styles */
 
-
+nav.horizontalNavigation li {
+   display: block;
+   width: 12.5%;
+}
 
 
 /* Topics Styles */
