@@ -46,12 +46,10 @@ body > header > img {
    width: 70%;
    float: left;
 }
-nav.horizontalNavigation li {
+body > header > li {
    float: left;
    padding-left: 2%;
    padding-right: 2%;
-}
-body > header> li {
    width: 30%;
 }
 
@@ -60,11 +58,19 @@ body > header> li {
 
 /* Horizontal Navigation List Styles */
 
+nav.horizontalNavigation li {
+   display: block;
+   width: 12.5%;
+}
 
+nav.horizontalNavigation a{
+   display: block;
+   width: 100%;
+   text-align: center;
+}
 
 
 /* Topics Styles */
-
 
 
 
