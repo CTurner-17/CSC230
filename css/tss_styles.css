@@ -22,67 +22,76 @@
 
 /* HTML and Body Styles */
 html {
-   background-color: rgb(219, 121, 40);
+   background-color: rgb(7, 86, 160);
 }
 body {
-   color: rgb(90, 121, 206);
-   background-color: aqua;
+   color: rgb(23, 24, 26);
+   background-color: white;
    font-family: Verdana, Geneva, sans-serif;
 }
-
+body > header > {
+   font-weight: bold;
+   font-size: 19px;
+}
+/* body > section > article > li {
+   font-size: 3em;
+   font-weight: bold;
+   display: block;
+} */
 
 
 /* Heading Styles */
-h1, h2 {
+/* h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
    letter-spacing: 0.1em;
-}
-article#about_tss h1 {
+   color: black;
+} */
+/* article h1 {
    color: white;
    background-color: rgb(222, 128, 60);
 }
 
-article#about_tss h2 {
+article h2 {
    color: white;
    background-color: rgb(235, 177, 131);
 }
 article.syllabus h1, article.syllabus h2 {
    background-color: rgb(255, 185, 255);
    color: rgb(101, 101, 101);
-}
-h1 {
+} */
+/* h1 {
    font-size: 2.2em;
 }
 h2 {
    font-size: 1.5em;
-}
+} */
 
 /* Aside and Blockquote Styles */
-aside blockquote {
+/* aside blockquote {
    color: rgb(232, 165, 116);
    margin: 20px 5px;
    quotes: "\201C" "\201D";
-}
-aside blockquote::before {
+} */
+/* aside blockquote::before {
    content: open-quote;
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
-}
-aside blockquote::after {
+} */
+/* aside blockquote::after {
    content: close-quote ;
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
-}
-aside {
+} */
+/* aside {
    font-size: 0.8em;
-}
+} */
 
 
 /* Navigation Styles */	
 
-nav {
+/* nav {
    font-size: 0.8em;
 }
 nav > ul {
@@ -100,29 +109,11 @@ nav > ul > li > a:link, nav > ul > li >a:visited {
 nav > ul > li > a:link, nav > ul > li >a:active {
    color: rgb(255,64,255);
    text-decoration: underline;
-}
+} */
 
 
 /* List Styles */
 
-article#about_tss ul li:first-of-type{
-   list-style-image: url(runicon.png);
-}
-article#about_tss ul li:nth-of-type(2){
-   list-style-image: url(bikeicon.png);
-}
-article#about_tss ul li:last-of-type{
-   list-style-image: url(swimicon.png);
-}
-article.syllabus ol {
-   list-style-type: upper-roman;
-}
-article.syllabus ol ol{
-   list-style-type: upper-alpha;
-}
-article.syllabus ol ol ol{
-   list-style-type: decimal;
-}
 
 /* Footer Styles */
 
