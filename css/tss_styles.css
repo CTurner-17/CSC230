@@ -22,11 +22,11 @@
 
 /* HTML and Body Styles */
 html {
-   background-color: hsl(27,72%, 72%);
+   background-color: rgb(219, 121, 40);
 }
 body {
-   color: rgb(91, 91, 91);
-   background-color: ivory;
+   color: rgb(90, 121, 206);
+   background-color: aqua;
    font-family: Verdana, Geneva, sans-serif;
 }
 
