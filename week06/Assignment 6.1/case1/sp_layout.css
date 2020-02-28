@@ -94,7 +94,12 @@ ul#comments {
    width: 75%;
    margin: 40px auto;
 }
-
+ul#comments li{
+   display: block;
+   width: 50%;
+   float:left;
+   margin-bottom: 30px;
+}
 
 /* Footer Styles */
 
