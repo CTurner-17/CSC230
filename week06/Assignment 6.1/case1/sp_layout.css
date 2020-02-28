@@ -27,43 +27,43 @@ body {
 }
 
 header, ul, nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
 
 /* Row Styles */
-div.row::after {
+.row::after {
    clear: both;
    content: "";
    display: table;
 }
 
 /* Page Header Styles */
-body > header > img {
+body > header img {
    display: block;
    width: 70%;
    float: left;
 }
-body > header > nav > li {
+body > header > nav {
    float: left;
    padding-left: 2%;
    padding-right: 2%;
    width: 30%;
+   /* display: block; */
 }
-body > header > nav > a {
+body > header > nav a {
    display: block;
    width: 100%;
 }
 
 /* Horizontal Navigation List Styles */
 
-body > header > nav.horizontal > li {
-   /*display: block;*/
-   width: 12.5%;
-   /*float: left;*/
-}
-nav.horizontal > li {
+nav.horizontal li {
+   /* clear: both; */
    display: block;
    float: left;
+   width: 12.5%;
 }
 
 /* Topics Styles */
