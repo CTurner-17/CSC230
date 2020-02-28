@@ -100,7 +100,16 @@ ul#comments li{
    float:left;
    margin-bottom: 30px;
 }
-
+ul#comments img {
+   display: block;
+   width: 20%;
+   float: left;
+   margin: 0% 5%;
+}
+ul#comments li > p {
+   float: left;
+   width: 70%;
+}
 /* Footer Styles */
 
 
