@@ -85,16 +85,31 @@ ul#topics img{
    width: 50%;
    align-content: center;
 }
-
 /* HR Styles */
-
-
-
-
+hr {
+   width: 50%;
+}
 /* Customer Comment Styles */
-
-
-
+ul#comments {
+   width: 75%;
+   margin: 40px auto;
+}
+ul#comments li{
+   display: block;
+   width: 50%;
+   float:left;
+   margin-bottom: 30px;
+}
+ul#comments img {
+   display: block;
+   width: 20%;
+   float: left;
+   margin: 0% 5%;
+}
+ul#comments li > p {
+   float: left;
+   width: 70%;
+}
 /* Footer Styles */
 
 
