@@ -144,10 +144,32 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-
+ul.submenu {
+   display: none;
+}
 
 
 
 /* New Styles Added Below */
 
-
+/* ================================
+   Mobile Styles: 480px and greater
+   ================================ 
+*/
+@media only screen and (max-width:480px) {
+   
+}
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================ 
+*/
+@media only screen and (min-width:481px) {
+   
+}
+/* ================================
+   Desktop Styles: 769px and greater
+   ================================ 
+*/
+@media only screen and (min-width:769px) {
+   
+}
