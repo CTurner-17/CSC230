@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Charles Turner
+   Date:     2/5/2020
    
    Filename: tf_styles1.css
    
@@ -150,4 +150,24 @@ body > footer {
 
 /* New Styles Added Below */
 
+/* ================================
+   Mobile Styles : 0px to 470 px
+   ================================
+*/
+@media only screen and (max-width: 480px){
 
+}
+/* =================================
+   Tablet Styles : 481px and greater
+   ================================= 
+*/
+@media only screen and (min-width: 481px){
+   
+}
+/* ================================
+   Desktop Styles : 769 and greater
+   ================================
+*/
+@media only screen and (min-width: 769px){
+   
+}
