@@ -147,7 +147,9 @@ body > footer {
 ul.submenu {
    display: none;
 }
-
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
 
 
 /* New Styles Added Below */
@@ -157,14 +159,29 @@ ul.submenu {
    ================================ 
 */
 @media only screen and (max-width:480px) {
-   
+   nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+   }
+   aside {
+      display: none;
+   }
 }
 /* ================================
    Tablet Styles: 481px and greater
    ================================ 
 */
 @media only screen and (min-width:481px) {
-   
+   ul.mainmenu > li {
+      float: left;
+      width: 20%;
+      position: relative;
+   }
+   ul.submenu {
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+      width: 200%;
+   }
 }
 /* ================================
    Desktop Styles: 769px and greater
