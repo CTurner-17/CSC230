@@ -175,6 +175,7 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    ul.mainmenu > li {
       float: left;
       width: 20%;
+      position: relative;
    }
    ul.submenu {
       width: 200%;
