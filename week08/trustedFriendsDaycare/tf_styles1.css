@@ -188,5 +188,28 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    ================================ 
 */
 @media only screen and (min-width:769px) {
-   
+   ul.submenu {
+      background: transparent;
+      box-shadow: none;
+      display: block;
+      position: relative;
+      width: 100%;
+   }
+   nav.horizontal::after {
+      clear: both;
+      content: "";
+      display: table;
+   }
+   nav.horizontal a.submenuTitle {
+      display:none;
+   }
+   article {
+      float: left;
+      margin-right: 5%;
+      width: 55%;
+   }
+   aside {
+      float: left;
+      width: 40%;
+   }
 }
