@@ -14,7 +14,12 @@
 
 
 /* Grid Rows Styles */
-
+div{
+   width: 100%;
+}
+div.row {
+   clear: both;
+}
 
 
 
