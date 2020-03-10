@@ -20,6 +20,11 @@ div{
 div.row {
    clear: both;
 }
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 
