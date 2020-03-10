@@ -14,14 +14,33 @@
 
 
 /* Grid Rows Styles */
-
-
-
+div{
+   width: 100%;
+}
+div.row {
+   clear: both;
+}
+div.row::after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
 /* Grid Columns Styles */
+div[class^="col"] {
+   float: left;
+}
 
-
-
+div.column100 {width: 100%;}
+div.column50 {width: 50%;}
+div.column33 {width: 33%;}
+div.column67 {width: 67%;}
+div.column25 {width: 25%;}
+div.column75 {width: 75%;}
+div.column20 {width: 20%;}
+div.column40 {width: 40%;}
+div.column60 {width: 60%;}
+div.column80 {width: 80%;}
 
 /* Grid Spacing Styles */
 
