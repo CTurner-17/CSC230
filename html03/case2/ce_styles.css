@@ -16,7 +16,14 @@
 html {
    background-color: rgb(101, 101, 101);
 }
-
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   margin: 20px auto;
+   width: 95%;
+   min-width: 320px;
+   max-width: 960px;
+}
 
 /* Body Header Styles */
 
