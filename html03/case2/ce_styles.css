@@ -13,11 +13,29 @@
 
 
 /* Window and Body Styles */
-
-
-
+html {
+   background-color: rgb(101, 101, 101);
+}
+body {
+   background-color: white;
+   font-family: Verdana, Geneva, Arial, sans-serif;
+   margin: 20px auto;
+   width: 95%;
+   min-width: 320px;
+   max-width: 960px;
+}
+img {
+   display: block;
+   width: 100%;
+}
+nav > ul > li > a:link {
+   text-decoration: none;
+}
 /* Body Header Styles */
-
+body > header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
 
 
 /* DIV Container Styles */
