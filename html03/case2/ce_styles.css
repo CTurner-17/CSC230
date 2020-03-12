@@ -32,7 +32,10 @@ nav > ul > li > a:link {
    text-decoration: none;
 }
 /* Body Header Styles */
-
+body > header {
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
 
 
 /* DIV Container Styles */
