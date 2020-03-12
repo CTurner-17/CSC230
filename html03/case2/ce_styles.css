@@ -28,6 +28,9 @@ img {
    display: block;
    width: 100%;
 }
+nav > ul > li > a:link {
+   text-decoration: none;
+}
 /* Body Header Styles */
 
 
