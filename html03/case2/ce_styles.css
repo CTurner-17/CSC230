@@ -36,8 +36,12 @@ body > header {
    background-color: rgb(191, 68, 70);
    height: 40px;
 }
-
-
+body > header > nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding: 10px 0px;
+}
 /* DIV Container Styles */
 
 
