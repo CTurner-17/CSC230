@@ -23,6 +23,7 @@ body {
    width: 95%;
    min-width: 320px;
    max-width: 960px;
+   position: relative;
 }
 img {
    display: block;
@@ -51,7 +52,26 @@ header > nav > ul > li > a:hover, header > nav > ul > li > a:active {
    color: rgb(255, 211, 211);
 }
 /* DIV Container Styles */
-
-
+div#container {
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+div.a#cell {
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
 
 /* Footer Styles */
+footer {
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
+
+
+
