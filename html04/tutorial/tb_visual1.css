@@ -47,6 +47,10 @@ article {
                rgb(211, 211,211);
    
 }
+article header h1 {
+   text-shadow: rgb(181, 211 181) 2px 2px 1px,
+                rgba(21, 21, 21, 0.66) 5px 5px 25px;
+}
 
 /* Page Body Styles */
 body {
