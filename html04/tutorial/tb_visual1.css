@@ -16,6 +16,9 @@
 
 /* Figure Box Styles */
 figure {
+   border-style: solid;
+   border-width: 25px;
+   border-image: url(tb_border.png) 50 repeat;
    margin: 20px auto 0px;
    width: 80%;
 }
