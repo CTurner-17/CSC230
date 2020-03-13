@@ -23,6 +23,7 @@ body {
    width: 95%;
    min-width: 320px;
    max-width: 960px;
+   position: relative;
 }
 img {
    display: block;
