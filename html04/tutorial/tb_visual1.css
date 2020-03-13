@@ -65,6 +65,7 @@ body {
 
 /* Aside Styles */
 Aside {
+   background: radial-gradient(white, rgb(151, 222, 151), rgb(81, 125, 81));
    border: 4px double rgb(45, 93, 62);
    border-radius: 30px;
    box-shadow: rgba(51, 91, 51, 0.4) 0px 0px 20px 10px;
