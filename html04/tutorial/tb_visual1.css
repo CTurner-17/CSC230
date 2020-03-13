@@ -34,13 +34,12 @@ figure figcaption {
 /* HTML Styles */
 html {
    background-image: url(tb_back1.png);
-   
 }
 
-
-
 /* Article Styles */
-
+article {
+   background: url(tb_back2.png) bottom right / 16% no repeat content-box;
+}
 
 
 
