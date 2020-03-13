@@ -36,8 +36,20 @@ body > header {
    background-color: rgb(191, 68, 70);
    height: 40px;
 }
+body > header > nav > ul > li {
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding: 10px 0px;
+}
+header > nav > ul > li > a:link {
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
 
-
+}
+header > nav > ul > li > a:hover, header > nav > ul > li > a:active {
+   color: rgb(255, 211, 211);
+}
 /* DIV Container Styles */
 
 
