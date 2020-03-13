@@ -6,7 +6,7 @@
    Tutorial Case
    
    Visual Style Sheet for Tree and Book Family Home Page
-   Author: 
+   Author: Charles Turner
    Date:   
    
    Filename: tb_visual1.css
@@ -15,9 +15,21 @@
 
 
 /* Figure Box Styles */
-
-
-
+figure {
+   margin: 20px auto 0px;
+   width: 80%;
+}
+figure img {
+   display: block;
+   width: 100%;
+}
+figure figcaption {
+   background-color: white;
+   font-family: 'Palatino Linotype', Palatino, 'Times New roman', serif;
+   font-style: italic;
+   padding: 10px 0px;
+   text-align: center;
+}
 
 /* HTML Styles */
 
