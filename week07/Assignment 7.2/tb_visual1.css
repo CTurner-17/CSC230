@@ -45,8 +45,6 @@ article {
                url(tb_back3.png) bottom left / 15% no-repeat content-box,
                url(tb_back4.png) 100% / cover no-repeat,
                rgb(211, 211,211);
-   box-shadow: inset rgb(71, 71, 71) -10px -10px 25px,
-               inset rgb(71, 71, 71) 10px 10px 25px;
    
 }
 article header h1 {
@@ -58,18 +56,13 @@ article header h1 {
 body {
    border-left: 1px solid rgb(51, 51, 51);
    border-right: 1px solid rgb(51, 51, 51);
-   box-shadow: rgb(51, 51, 51) 15px 0px 25px,
-               rgb(51, 51, 51) -15px 0px 25px;
 }
-
 
 /* Aside Styles */
 Aside {
    border: 4px double rgb(45, 93, 62);
    border-radius: 30px;
-   box-shadow: rgba(51, 91, 51, 0.4) 0px 0px 20px 10px;
 }
-
 
 /* Footer Styles */
 
