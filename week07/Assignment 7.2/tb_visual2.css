@@ -25,12 +25,14 @@ figure#figure1 {
 }
 
 figure#figure2 {
-   transform: rotate(-40deg) scale(0.8, 0.8) translate(20px, -100px);
+   transform: rotate(-40deg) scale(0.8, 0.8) translate(20px, -100px)
+              rotateZ(30deg) rotateY(60deg);
    box-shadow: rgb(101, 101, 101) 10px 10px 25px;
 }
 
 figure#figure3 {
-   transform: rotate(10deg) scale(0.9, 0.9) translateY(-120px);
+   transform: rotate(10deg) scale(0.9, 0.9) translateY(-120px)
+              rotateY(-70deg) translateZ(-20px);
    box-shadow: rgb(101, 101, 101) 10px -10px 25px;
 }
 
