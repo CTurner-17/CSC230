@@ -45,6 +45,8 @@ article {
                url(tb_back3.png) bottom left / 15% no-repeat content-box,
                url(tb_back4.png) 100% / cover no-repeat,
                rgb(211, 211,211);
+   box-shadow: inset rgb(71, 71, 71) -10px -10px 25px,
+               inset rgb(71, 71, 71) 10px 10px 25px;
    
 }
 article header h1 {
