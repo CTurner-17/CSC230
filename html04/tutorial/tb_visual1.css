@@ -20,7 +20,7 @@ figure {
    border-width: 25px;
    border-image: url(tb_border.png) 50 repeat;
    margin: 20px auto 0px;
-   opacity: 0.55%;
+   opacity: 0.55;
    width: 80%;
 }
 figure img {
