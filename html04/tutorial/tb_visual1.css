@@ -23,6 +23,13 @@ figure img {
    display: block;
    width: 100%;
 }
+figure figcaption {
+   background-color: white;
+   font-family: 'Palatino Linotype', Palatino, 'Times New roman', serif;
+   font-style: italic;
+   padding: 10px 0px;
+   text-align: center;
+}
 
 /* HTML Styles */
 
