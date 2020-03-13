@@ -72,5 +72,7 @@ Aside {
 
 
 /* Footer Styles */
-
+footer {
+   background: linear-gradient(345deg, rgb(172, 232, 172), rgb(21, 35, 21) 80%);  
+}
 
