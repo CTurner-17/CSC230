@@ -15,9 +15,14 @@
 
 
 /* Figure Box Styles */
-
-
-
+figure {
+   margin: 20px auto 0px;
+   width: 80%;
+}
+figure img {
+   display: block;
+   width: 100%;
+}
 
 /* HTML Styles */
 
