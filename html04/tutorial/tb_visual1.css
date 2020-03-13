@@ -45,12 +45,11 @@ article {
    
 }
 
-
-
 /* Page Body Styles */
-
-
-
+body {
+   border-left: 1px solid rgb(51, 51, 51);
+   border-right: 1px solid rgb(51, 51, 51);
+}
 
 /* Aside Styles */
 
