@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Tutorial Case
+   
+   Visual Style Sheet for Tree and Book Family Home Page
+   Author: Charles Turner
+   Date:   
+   
+   Filename: tb_visual1.css
+
+*/
+
+
+/* Figure Box Styles */
+figure {
+   border-style: solid;
+   border-width: 25px;
+   border-image: url(tb_border.png) 50 repeat;
+   margin: 20px auto 0px;
+   width: 80%;
+}
+figure img {
+   display: block;
+   width: 100%;
+}
+figure figcaption {
+   background-color: white;
+   font-family: 'Palatino Linotype', Palatino, 'Times New roman', serif;
+   font-style: italic;
+   padding: 10px 0px;
+   text-align: center;
+}
+
+/* HTML Styles */
+html {
+   background-image: url(tb_back1.png);
+}
+
+/* Article Styles */
+article {
+   background: url(tb_back2.png) bottom right / 15% no-repeat content-box,
+               url(tb_back3.png) bottom left / 15% no-repeat content-box,
+               url(tb_back4.png) 100% / cover no-repeat,
+               rgb(211, 211,211);
+   
+}
+article header h1 {
+   text-shadow: rgb(181, 211 181) 2px 2px 1px,
+                rgba(21, 21, 21, 0.66) 5px 5px 25px;
+}
+
+/* Page Body Styles */
+body {
+   border-left: 1px solid rgb(51, 51, 51);
+   border-right: 1px solid rgb(51, 51, 51);
+}
+
+/* Aside Styles */
+Aside {
+   border: 4px double rgb(45, 93, 62);
+   border-radius: 30px;
+}
+
+/* Footer Styles */
+
+
