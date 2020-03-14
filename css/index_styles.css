@@ -28,6 +28,7 @@ body {
    color: rgb(62, 62, 63);
    background-color: rgb(14, 131, 177);
    font-family: Verdana, Geneva, sans-serif;
+   float: left;
 }
 
 
@@ -61,6 +62,10 @@ h2 {
 
 aside {
    font-size: 0.8em;
+   color: rgb(62, 62, 63);
+   background-color: rgb(14, 131, 177);
+   font-family: Verdana, Geneva, sans-serif;
+   float: left;
 }
 
 
