@@ -22,11 +22,11 @@
 
 /* HTML and Body Styles */
 html {
-   background-color: rgb(27, 116, 189);
+   background-color: rgb(228, 230, 231);
 }
 body {
-   color: rgb(27, 55, 131);
-   background-color: rgb(170, 175, 175);
+   color: rgb(62, 62, 63);
+   background-color: rgb(14, 131, 177);
    font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -57,24 +57,8 @@ h2 {
    font-size: 1.5em;
 }
 
-/* Aside and Blockquote Styles */
-aside blockquote {
-   color: rgb(232, 165, 116);
-   margin: 20px 5px;
-   quotes: "\201C" "\201D";
-}
-aside blockquote::before {
-   content: open-quote;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
-aside blockquote::after {
-   content: close-quote ;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
+/* Aside Styles */
+
 aside {
    font-size: 0.8em;
 }
