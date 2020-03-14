@@ -25,15 +25,15 @@ html {
    background-color: rgb(27, 116, 189);
 }
 body {
-   color: rgb(90, 121, 206);
-   background-color: aqua;
+   color: rgb(27, 55, 131);
+   background-color: rgb(170, 175, 175);
    font-family: Verdana, Geneva, sans-serif;
 }
 
 
 
 /* Heading Styles */
-h1, h2 {
+ul, li {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
    letter-spacing: 0.1em;
 }

@@ -11,43 +11,48 @@
 */
 
 
-body {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1020px;
+html {
+	height: 100%;
+ }
+ body {
+	width: 95%;
 	min-width: 640px;
-}
-
-body > header {
-	margin: 0;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+ }
+ 
+ header, ul, nav, li, a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+ /* Row Styles */
+ .row::after {
+	clear: both;
+	content: "";
+	display: table;
+ }
+ 
+ /* Page Header Styles */
+ body > header img {
+	display: block;
+	width: 70%;
+	float: left;
+ }
+ body > header > nav {
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 30%;
+	/* display: block; */
+ }
+ body > header > nav a {
+	display: block;
 	width: 100%;
-	overflow: hidden;
-}
-
-body > nav {
-	width: 20%;
-	float: left;
-	margin: 0 0 0 1.5%;
-}
-
-body > article#about_tss {
-	width: 51%;
-	float: left;
-	margin: 0 3% 0 3%;
-}
-
-
-body > aside {
-	width: 20%;
-	float: left;
-	margin: 0 1.5% 0 0;
-}
-
-body > article#about_tss img {
-	float: right;
-	width: 40%;
-	margin: 0px 0 10px 10px;
-}
+ }
 
 article.ol {
     float: left;
