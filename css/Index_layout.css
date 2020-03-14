@@ -49,10 +49,10 @@ body > article#about_tss img {
 	margin: 0px 0 10px 10px;
 }
 
-article.syllabus {
+article.ol {
     float: left;
 	width: 74.5%;
-	margin: 0 4% 0 0%;
+	size: 15px;
 }
 
 
