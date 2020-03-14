@@ -28,7 +28,7 @@ body {
    color: rgb(62, 62, 63);
    background-color: rgb(14, 131, 177);
    font-family: Verdana, Geneva, sans-serif;
-   float: left;
+   float: none;
 }
 
 
@@ -60,49 +60,58 @@ h2 {
 
 /* Aside Styles */
 
-aside {
+aside > ol {
+   display: block;
    font-size: 0.8em;
    color: rgb(62, 62, 63);
-   background-color: rgb(14, 131, 177);
+   background-color: rgb(206, 170, 9);
    font-family: Verdana, Geneva, sans-serif;
    float: left;
 }
-
-
-/* Navigation Styles */	
-
-nav {
-   font-size: 0.8em;
+aside > h1 {
+   display: block;
+   background-color: white;
 }
-nav > ul {
+
+
+aside > ul {
    line-height: 2em;
    list-style-type: none;
    padding-left: 5px;
 }
-nav > ul > li.newgroup {
+aside > ul > li.newgroup {
    margin-top: 20px;
 }
-nav > ul > li > a:link, nav > ul > li >a:visited {
+aside > ul > li > a:link, aside > ul > li >a:visited {
    color: rgb(151,151,151);
    text-decoration: none;
 }
-nav > ul > li > a:link, nav > ul > li >a:active {
-   color: rgb(255,64,255);
+aside > ul > li > a:link, aside > ul > li >a:active {
+   color: rgb(161, 8, 8);
    text-decoration: underline;
 }
-
-
+/* Nav styles */
+nav {
+   text-align: center;
+   size: 10px;
+   -moz-text-size-adjust: auto;
+   -ms-text-size-adjust: auto;
+   -webkit-text-size-adjust: auto;
+}
+nav > li {
+   display: block;
+   float: initial;
+}
+nav > li a:link, nav > li >a:visited {
+   color: rgb(8, 60, 119);
+   text-decoration: none;
+}
+nav > li > a:link, nav > li >a:active {
+   color: rgb(206, 91, 91);
+   text-decoration: underline;
+}
 /* List Styles */
 
-article#about_tss ul li:first-of-type{
-   list-style-image: url(runicon.png);
-}
-article#about_tss ul li:nth-of-type(2){
-   list-style-image: url(bikeicon.png);
-}
-article#about_tss ul li:last-of-type{
-   list-style-image: url(swimicon.png);
-}
 article.syllabus ol {
    list-style-type: upper-roman;
 }
