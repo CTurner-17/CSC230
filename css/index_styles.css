@@ -10,11 +10,11 @@
    Tutorial 2
    Tutorial Case
    
-   TSS Typographic Style Sheet
+   INDEX Typographic Style Sheet
    Author: Charles Turner  
    Date:   1/30/2020
    
-   Filename: tss_styles.css
+   Filename: Index_styles.css
 
 */
 
@@ -22,18 +22,18 @@
 
 /* HTML and Body Styles */
 html {
-   background-color: rgb(219, 121, 40);
+   background-color: rgb(228, 230, 231);
 }
 body {
-   color: rgb(90, 121, 206);
-   background-color: aqua;
+   color: rgb(62, 62, 63);
+   background-color: rgb(14, 131, 177);
    font-family: Verdana, Geneva, sans-serif;
 }
 
 
 
 /* Heading Styles */
-h1, h2 {
+ul, li {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
    letter-spacing: 0.1em;
 }
@@ -57,24 +57,8 @@ h2 {
    font-size: 1.5em;
 }
 
-/* Aside and Blockquote Styles */
-aside blockquote {
-   color: rgb(232, 165, 116);
-   margin: 20px 5px;
-   quotes: "\201C" "\201D";
-}
-aside blockquote::before {
-   content: open-quote;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
-aside blockquote::after {
-   content: close-quote ;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 1.6em;
-   font-weight: bold;
-}
+/* Aside Styles */
+
 aside {
    font-size: 0.8em;
 }
