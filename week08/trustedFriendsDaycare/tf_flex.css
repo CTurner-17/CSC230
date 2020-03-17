@@ -67,9 +67,17 @@ nav.horizontal li {
 */
 
 @media only screen and (max-width: 480px) {
-  
 
- 
+   aside {
+      -webkit-order:99;
+      order: 99;
+   }
+
+   footer {
+      -webkit-order: 100;
+      order: 100;
+   }
+  
 }
 
 /* ============================================
