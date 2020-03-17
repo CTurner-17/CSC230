@@ -42,7 +42,21 @@ body > header > img {
 
 
 /* Typography Styles */
+h1 {
+   font-size: 28pt;
+   line-height: 30pt;
+   margin: 0.3in 0in 0.2in;
+}
 
+h2 {
+   font-size: 20pt;
+   margin: 0.1in 0in 0.1in 0.3in;
+}
+
+p {
+   font-size: 12pt;
+   margin: 0.1in 0in 0.1in 0.3in;
+}
 
 
 /* List Styles */
