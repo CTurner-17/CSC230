@@ -34,9 +34,11 @@ a#navicon {
    a#navicon {
       display: block;
    }
+
    nav.horizontal ul {
       display: none;
    }
+   
    a#navicon:hover+ul, nav.horizontal ul:hover {
       display: block;
    }
