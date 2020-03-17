@@ -5,7 +5,7 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
+   Author:   Charles Turner
    Date:     
    
    Filename: tf_flex.css
@@ -20,7 +20,13 @@
    Base Flex Styles
    ================
 */
+body {
+   display: -webkit-flex;
+   display: flex;
 
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
 
 
 
