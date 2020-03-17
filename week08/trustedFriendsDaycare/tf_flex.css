@@ -50,6 +50,16 @@ section#topics article {
    -webkit-flex: 1 1 200px;
    flex: 1 1 200px;
 }
+nav.horizontal ul {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+nav.horizontal li {
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
