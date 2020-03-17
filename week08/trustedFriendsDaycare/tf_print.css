@@ -92,6 +92,10 @@ img, ol, ul {
    page-break-inside: avoid;
 }
 
+p {
+   orphans: 3;
+   widows: 3;
+}
 
 
 	
