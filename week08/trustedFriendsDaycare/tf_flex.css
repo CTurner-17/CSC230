@@ -5,7 +5,7 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
+   Author:   Charles Turner
    Date:     
    
    Filename: tf_flex.css
@@ -20,9 +20,36 @@
    Base Flex Styles
    ================
 */
+body {
+   display: -webkit-flex;
+   display: flex;
 
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+header, footer {
+   width: 100%;
+}
 
+aside {
+   -webkit-flex:  1 1 120px;
+   flex: 1 1 120px;
+}
 
+section#main {
+   -webkit-flex: 3 1 361px;
+   flex: 3 1 361px;
+}
+section#topics {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+section#topics article {
+   -webkit-flex: 1 1 200px;
+   flex: 1 1 200px;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
