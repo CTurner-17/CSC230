@@ -60,11 +60,19 @@ p {
 
 
 /* List Styles */
-
+ul {
+   list-style-type: disc;
+   margin-left: 0.5in;
+}
 
 
 /* Image Styles */
-
+article img {
+   border: 2px solid rgb(191, 191, 191);
+   display: block;
+   margin: 0.25in auto;
+   width: 65%;
+}
 
 
 
