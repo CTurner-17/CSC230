@@ -88,6 +88,10 @@ article:nth-of-type(n+2) {
    page-break-before: always;
 }
 
+img, ol, ul {
+   page-break-inside: avoid;
+}
+
 
 
 	
