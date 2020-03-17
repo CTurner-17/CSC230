@@ -40,7 +40,16 @@ section#main {
    -webkit-flex: 3 1 361px;
    flex: 3 1 361px;
 }
-
+section#topics {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+section#topics article {
+   -webkit-flex: 1 1 200px;
+   flex: 1 1 200px;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
