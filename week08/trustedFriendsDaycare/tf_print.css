@@ -40,7 +40,6 @@ body > header > img {
    width: 100%;
 }
 
-
 /* Typography Styles */
 h1 {
    font-size: 28pt;
@@ -58,25 +57,45 @@ p {
    margin: 0.1in 0in 0.1in 0.3in;
 }
 
-
 /* List Styles */
-
-
+ul {
+   list-style-type: disc;
+   margin-left: 0.5in;
+}
 
 /* Image Styles */
-
-
-
+article img {
+   border: 2px solid rgb(191, 191, 191);
+   display: block;
+   margin: 0.25in auto;
+   width: 65%;
+}
 
 /* Hypertext Styles */
+a {
+   color: black;
+   text-decoration: none;
+}
 
-
-
-
+a::after {
+   content: " (" attr(href) ") ";
+   font-weight: bold;
+   word-wrap: break-word;
+}
 
 /* Page Break Styles */
+article:nth-of-type(n+2) {
+   page-break-before: always;
+}
 
+img, ol, ul {
+   page-break-inside: avoid;
+}
 
+p {
+   orphans: 3;
+   widows: 3;
+}
 
 
 	
